@@ -1,0 +1,40 @@
+/*Seccion de pintar.html*/
+#ele1 {
+    background-color: green;
+}
+
+
+/*Seccion de 4_colores.html */
+.cuadrado{
+    height: 200px;
+}
+body{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-top: 100px;
+}
+
+#rojo{
+background-color: red;
+}
+#azul{
+    background-color: blue;
+}
+#verde{
+    background-color: green;
+}
+#amarillo{
+    background-color: yellow;
+}
+
+
+/* seccion de letras.html*/
+#key{
+    height: 100px;
+    background-color: white;
+}
+
+#key2{
+    height: 100px;
+    background-color: white;
+}
