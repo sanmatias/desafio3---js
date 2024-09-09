@@ -22,10 +22,10 @@ document.addEventListener('keydown', function (event) {
             contenedor = document.querySelector("body")
             nuevo_div =document.createElement("div");
             contenedor.appendChild(nuevo_div)
-            nuevo_div.setAttribute("id","key3") 
+            nuevo_div.setAttribute("id","key2") 
         }
         
-        const key2 = document.getElementById("key3")
+        const key2 = document.getElementById("key2")
         
         if (event.key === 'q') {
         /* Cambiar a color 1 */
