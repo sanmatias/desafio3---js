@@ -1,5 +1,4 @@
 const key1 = document.getElementById("key")
-const key2 = document.getElementById("key2")
 
 document.addEventListener('keydown', function (event) {
     if (event.key === 'a') {
@@ -17,10 +16,17 @@ document.addEventListener('keydown', function (event) {
     
 
     document.addEventListener('keydown', function (event) {
-        contenedor = document.querySelector("body")
-        nuevo_div =document.createElement("div");
-        nuevo_div=document.create
-        contenedor.appenChild(nuevo_div)
+        contenedor_existe = document.getElementById("key2")
+        
+        if( !contenedor_existe){
+            contenedor = document.querySelector("body")
+            nuevo_div =document.createElement("div");
+            contenedor.appendChild(nuevo_div)
+            nuevo_div.setAttribute("id","key3") 
+        }
+        
+        const key2 = document.getElementById("key3")
+        
         if (event.key === 'q') {
         /* Cambiar a color 1 */
         key2.style.backgroundColor = "purple"
